@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
+.cursiveFont {
+    font-family: "Playwrite AT", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: regular;
+}
