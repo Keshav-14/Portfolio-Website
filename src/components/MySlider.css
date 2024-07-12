@@ -1,0 +1,10 @@
+.custom-arrow {
+    color: green; /* Change the color here */
+    z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 30px;
+    color: green; /* Change the color here */
+}

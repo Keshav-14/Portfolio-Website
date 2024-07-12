@@ -5,6 +5,10 @@ import ColoredLine from './components/ColoredLine'
 import About from './components/About'
 import Education from './components/Education'
 import Skills from './components/Skills'
+import Contact from './components/Contact'
+import DesignedBy from './components/DesignedBy'
+import Load from './components/LoadingAnimation/Load'
+
 
 const App = () => {
   return (
@@ -17,6 +21,13 @@ const App = () => {
       <Education />
       <ColoredLine color={"#18f54b"}/>
       <Skills />
+      <ColoredLine color={"#18f54b"}/>
+                  {/* This component is not responsive!! */}
+      <ColoredLine color={"#18f54b"}/>
+      <Contact />
+      <ColoredLine color={"#18f54b"}/>
+      <Load />
+      <DesignedBy />
     </>
   )
 }

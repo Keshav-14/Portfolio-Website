@@ -6,14 +6,18 @@ import { SiMysql } from 'react-icons/si'
 const Skills = () => {
   return (
     <div className='flex justify-center items-center mb-20 flex-col'>
-      <h1 className='text-4xl mb-10'>Skills</h1>
-      <div className='flex justify-center gap-10'>
-        <SkillIcon icon={<FaJava color='red'/>} />
-        <SkillIcon icon={<SiMysql color='white'/>} />
-        <SkillIcon icon={<FaReact color='skyblue'/>} />
-        <SkillIcon icon={<FaAws color="orange"/>} />
-        <SkillIcon icon={<FaWordpress color='white'/>} />
-        <SkillIcon icon={<FaRedhat color='red' />} />
+      <h1 className='text-4xl mb-10 text-green-500'>Skills</h1>
+      <div className='flex justify-center gap-10 lg:flex-row'>
+        <div className='flex justify-center items-center flex-col lg:flex-row gap-10'>
+          <SkillIcon icon={<FaJava color='red'/>} />
+          <SkillIcon icon={<SiMysql color='white'/>} />
+          <SkillIcon icon={<FaReact color='skyblue'/>} />
+        </div>
+        <div className='flex justify-center items-center flex-col lg:flex-row gap-10'>
+          <SkillIcon icon={<FaAws color="orange"/>} />
+          <SkillIcon icon={<FaWordpress color='white'/>} />
+          <SkillIcon icon={<FaRedhat color='red' />} />
+        </div>
       </div>
     </div>
   )

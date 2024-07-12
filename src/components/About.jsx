@@ -1,11 +1,10 @@
 import React from 'react'
 import Profile from '../assets/Profile.jpeg'
-import Load from './LoadingAnimation/Load'
 
 const About = () => {
     return (
         <div className='mb-20 flex justify-center items-center flex-col'>
-            <h1 className='text-4xl'>About Me</h1>
+            <h1 className='text-4xl text-green-500'>About</h1>
             <div className='mt-20 flex justify-center items-center gap-24 flex-col lg:flex-row'>
                 <div className='flex justify-center items-center 
                     overflow-hidden w-44 h-44 rounded-full 

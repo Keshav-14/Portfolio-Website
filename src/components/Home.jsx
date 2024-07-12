@@ -1,7 +1,7 @@
 import React from 'react'
 import Profile from '../assets/Profile.jpeg'
 import Button from './Button'
-import { FaGithub, FaInstagram } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaChessPawn } from 'react-icons/fa'
 import { CiLinkedin } from 'react-icons/ci'
 
 const Home = () => {
@@ -19,6 +19,7 @@ const Home = () => {
                 <Button buttonHolder={<FaGithub />} linkAddress={"/"} text={"Github"}/>
                 <Button buttonHolder={<FaInstagram />} linkAddress={"/"} text={"Instagram"}/>
                 <Button buttonHolder={< CiLinkedin />} linkAddress={"/"} text={"LinkedIn"}/>
+                <Button buttonHolder={<FaChessPawn />} linkAddress={'/'} text={"Chess.com"} />
             </div>
         </div>
 
